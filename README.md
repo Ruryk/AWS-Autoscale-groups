@@ -147,7 +147,6 @@ siege -c 100 -t 5M http://<PUBLIC_IP>
 - Confirm that new instances are being added when CPU or request count thresholds are reached.
 - Confirm that instances are being removed as the load decreases.
 
-
 ![cloudwatch-monitoring-details](./images/cloudwatch-monitoring-details-ec2.png)
 ![cloudwatch-monitoring-details-auto-scaling](./images/cloudwatch-monitoring-details-auto-scaling.png)
 ![cpu-alarm](./images/cpu-alarm.png)
